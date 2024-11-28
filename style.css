@@ -1,0 +1,149 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    top: 0;
+    background-color: whitesmoke;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    z-index: 9999;
+    top: 0;
+}
+nav ul li a{
+    text-decoration: none;
+    padding-left: 30px;
+    font-size: 20px;
+    font-family: verdana;
+    font-weight: lighter;
+    color: black;
+}
+header img{
+    width: 60px;
+    object-fit: cover;
+}
+.content-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 230px;
+}
+.content-1 img{
+    object-fit: cover;
+    width: 350px;
+}
+.content-1 h2{
+    font-family: verdana;
+
+}
+.content-1 span{
+    color: #5A83FF;
+}
+.content-2 a{
+    text-align: center;
+}
+.content-2 a:hover{
+    font-size: 40px;
+}
+.content-2 p{
+    text-align: center;
+    font-family: arial;
+    font-size: 20px;
+    margin-bottom: 150px;
+}
+.marq-1{
+    background-color: #5A83FF;
+    font-family: verdana;
+    font-weight: uppercase;
+    font-size: 20px;
+    margin-bottom: 130px;
+    color: white;
+    padding: 10px;
+}
+.isian{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+}
+.content-3 h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Verdana;
+    margin-bottom: 120px;
+}
+.comment-1{
+    height: 300px;
+    width: 200px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 30px;
+    color: black;
+    box-shadow: 0 0 5px;
+}
+.comment-1 p{
+    text-align: center;
+}
+.comment-1 img{
+    height: 150px;
+    object-fit: cover;
+    padding-left: 20px;
+    position: relative;
+    bottom: 100px;
+}
+.comment-2{
+    height: 300px;
+    width: 200px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 30px;
+    color: black;
+    box-shadow: 0 0 5px;
+    margin-left: 300px;
+}
+.comment-2 p{
+    text-align: center;
+}
+.comment-2 img{
+    height: 150px;
+    object-fit: cover;
+    padding-left: 20px;
+    position: relative;
+    bottom: 100px;
+}
+.comment-3{
+    height: 300px;
+    width: 200px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 30px;
+    color: black;
+    box-shadow: 0 0 5px;
+    margin-left: 300px;
+}
+.comment-3 p{
+    text-align: center;
+}
+.comment-3 img{
+    height: 150px;
+    object-fit: cover;
+    padding-left: 20px;
+    position: relative;
+    bottom: 100px;
+}
+.content-4 a{
+    text-decoration: none;
+    color: white;
+    background-color: #5A83FF;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: trebuchet MS;
+    margin-left: 100px;
+}
